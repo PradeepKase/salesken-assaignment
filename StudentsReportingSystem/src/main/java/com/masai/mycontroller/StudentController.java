@@ -56,7 +56,7 @@ public class StudentController {
 		List<Student> list=studentService.topTwoStudents();
 		ModelAndView model=new ModelAndView();
 		model.addObject("list",list);
-		model.setViewName("TopStudent.jsp");
+		model.setViewName("TopStudents.jsp");
 		return model;
 	}
 	
